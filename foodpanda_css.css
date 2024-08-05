@@ -1,0 +1,280 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+	width: 102%;
+	padding-bottom:-10%; 
+	margin-left: -4%;
+	margin-top: -1%;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+.logo li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 12px;
+	width: 100px;
+	margin: 0;
+}
+.img{
+	position: relative;
+	right: 30%;
+	cursor: pointer;
+}
+.button{
+	position: relative;
+	right: -660%;
+	padding: 8px 19px;
+	font-size: 15px;
+	border-radius: 10px;
+	border:1px solid;
+	border-color: grey;
+	background: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+}
+.button:hover{
+	background-color: lightgrey;
+	transform:scale(1.09);
+}
+.button2{
+	color: #ffffff;
+	position: relative;
+	right: -630%;
+	padding: 8px 19px;
+	font-size: 15px;
+	border-radius: 10px;
+	border:1px solid;
+	border-color: grey;
+	background: #ff4285;
+	cursor: pointer;
+	font-weight: bold;
+}
+.button2:hover{
+	background-color: #e71f63;
+	transform:scale(1.09);
+}
+.lang{
+	position: relative;
+	right: -610%;
+	padding: 8px;
+	font-size: 15px;
+	font-weight: bold;
+	border:none;
+	border-radius: 10px;
+	cursor: pointer;
+	background: transparent;
+}
+.lang:hover{
+	background-color: lightgrey;
+}
+.shadow{
+	box-shadow: 5px 5px 10px  lightgrey;
+}
+.p1{
+	 font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	font-size: 40px;
+	font-weight: 600;
+}
+.shoping_basket img{
+	position: relative;
+	right:-600%;
+	cursor: pointer;
+}
+.search{
+	border: 1px solid lightgrey;
+	padding: 14px 45px;
+	width: 507px;
+	position: absolute;
+	top: 70%;
+	left: 5%;
+	background: #F9F6EE;
+	border-radius: 15px;
+}
+.search{
+	box-shadow: 3px 3px 20px 8px lightgrey;
+}
+.form input{
+	padding: 20px 35px;
+	position: relative;
+	left:-4.5%;
+	border:1px solid;
+	border-color: lightgrey;
+	border-radius: 15px;
+
+}
+.form button{
+	position: absolute;
+	right:  22px;
+	width: 100px;
+	padding: 20px 12px;
+	border: none;
+	border-radius: 15px;
+	background: #ff4285;
+	cursor: pointer;
+	font-weight: bold;
+	color: white;
+}
+.form button:hover{
+	background-color: #e71f63;
+	transform:scale(1.09);
+}
+.beforechef{
+	padding-left: 50px ;
+	padding-top: 50px ;
+	padding-bottom: 8px ;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bolder;
+	font-color:black;
+}
+.chef{
+	margin-left: -10px;
+	margin-right: -10px; 
+}
+.afterchef h3{
+	padding-left: 15px;
+}
+.afterchef{
+	display: inline-block;
+	position: absolute;
+	left: 5%;
+	top: 176%;
+	width: 43%;
+	border-radius: 15px;
+	border: none;
+	background: #ffffff;
+	padding: 15px;
+	font-size: 20px;
+}
+.afterchef p{
+	padding-left: 15px;
+}
+.afterchef{
+	 box-shadow: 2px 2px 8px 2px lightgrey;
+}
+.afterchef button{
+	position: relative;
+	left: 2%;
+	width: 100px;
+	padding: 20px 12px;
+	border: none;
+	border-radius: 15px;
+	background: #ff4285;
+	cursor: pointer;
+	font-weight: bold;
+	color: white;
+}
+.afterchef button:hover{
+	background-color: #e71f63;
+	transform:scale(1.09);
+}
+.beforeplaces{
+	display: inline-block;
+	position: relative;
+	bottom: -160px;
+	left: 78px;
+}
+.beforeplaces p{
+	margin-left: -20px;
+	padding-left: -40px;
+	padding-top: 120px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.row{
+	position: relative;
+	padding-top: 150px;
+	display: flex;
+	margin-bottom: -40px;
+}
+.row img:hover{
+	cursor: pointer;
+	transform: scale(1.06);
+}
+.row button{
+	font-size: 17.5px;
+	position: relative;
+	top: -60px;
+	left: 10px;
+	border: none;
+	border-radius: 15px;
+	background: white;
+	cursor: pointer;
+	padding: 15px 12px;
+}
+.row2{
+	position: relative;
+	padding-top: -200px;
+	display: flex;
+	margin-bottom: -60px;
+}
+.row2 img:hover{
+	cursor: pointer;
+	transform: scale(1.06);
+}
+.row2 button{
+	font-size: 17.5px;
+	position: relative;
+	top: -60px;
+	left: 10px;
+	border: none;
+	border-radius: 15px;
+	background: white;
+	cursor: pointer;
+	padding: 15px 12px;
+}
+.row3{
+	position: relative;
+	padding-top: 20px;
+	display: flex;
+	margin-bottom: -60px;
+
+}
+.row3 img:hover{
+	cursor: pointer;
+	transform: scale(1.06);
+}
+.row3 button{
+	font-size: 17.5px;
+	position: relative;
+	top: -60px;
+	left: 10px;
+	border: none;
+	border-radius: 15px;
+	background: white;
+	cursor: pointer;
+	padding: 15px 12px;
+}
+.row4{
+	position: relative;
+	padding-top: 20px;
+	display: flex;
+	margin-bottom: -60px;
+}
+
+.row4 img:hover{
+	cursor: pointer;
+	transform: scale(1.06);
+}
+.row4 button{
+	font-size: 17.5px;
+	position: relative;
+	top: -60px;
+	left: 10px;
+	border: none;
+	border-radius: 15px;
+	background: white;
+	cursor: pointer;
+	padding: 15px 12px;
+}
+.column{
+	flex: 25%;
+	padding: 5px;
+}
